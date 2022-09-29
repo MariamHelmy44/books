@@ -1,0 +1,33 @@
+body{
+    font-family: Tajawal;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgb(90, 186, 183, 0.7) , rgb(90, 186, 183, 0.7)) , url('../images/mountains.jpg');
+    background-position: center;
+    background-size:cover ;
+}
+.navbar{
+    box-shadow: 0 2px 8px rgb(25, 110, 108) ;
+
+}
+
+.navbar-brand , .nav-link {
+    color: white;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 30px !important;
+}
+
+.nav-link.active , .nav-link:hover{
+    color: blue !important;
+
+}
+
+#authors img{
+    margin-top: -70px;
+}
+
